@@ -31,7 +31,7 @@ jobs:
       - name: 1. Checkout
         uses: actions/checkout@v3
         with:
-          repository: 'dangtong76/hostsvc-cd'
+          repository: 'jongyang/hostsvc-cd'
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: 2. Change Docker Tag
         run: |
